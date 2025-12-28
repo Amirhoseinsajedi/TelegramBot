@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 
 # ====== تغییر بده ======
 TELEGRAM_TOKEN = "8078280538:AAEHAzSGTSGOZk9oC_Kefc6l5zSERtSVLQw"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 # =======================
 
 def ask_ai(text):
@@ -52,3 +52,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
 print("Bot is running...")
 app.run_polling()
+
